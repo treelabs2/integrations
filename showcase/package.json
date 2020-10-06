@@ -16,6 +16,7 @@
         "nodemon": "^2.0.4"
     },
     "dependencies": {
+        "request": "^2.88.2",
         "up": "^1.0.2"
     }
 }

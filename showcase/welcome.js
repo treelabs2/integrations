@@ -2,7 +2,7 @@ exports.page = {
     blocks: [
         {
             type: 'heading2',
-            value: 'Showcaseteswwwwwwwwwwwwt',
+            value: 'Showcase',
         },
         {
             type: 'collection',
@@ -64,34 +64,6 @@ exports.page = {
             attrs: {
                 pageId: 'qr',
                 iconUrl: 'https://img.icons8.com/color/48/000000/qr-code.png'
-            }
-        },
-         {
-            type: 'image',
-            value: 'https://img.icons8.com/color/48/000000/text-color.png',
-            attrs: {
-                caption: 'Tapddddd the image to go to withtree.com →',
-                format: 'landscape',
-                onClick: {
-                    action: 'open',
-                    payload: {
-                        url: 'https://withtree.com'
-                    }
-                }
-            }
-        },
-         {
-            type: 'image',
-            value: ['https://img.icons8.com/color/48/000000/qr-code.png','https://img.icons8.com/color/48/000000/text-color.png','https://img.icons8.com/color/48/000000/text-color.png'],
-            attrs: {
-                caption: 'Tapddddd the image to go to withtree.com →',
-                format: 'landscape',
-                onClick: {
-                    action: 'open',
-                    payload: {
-                        url: 'https://withtree.com'
-                    }
-                }
             }
         },
     ]

@@ -14,7 +14,7 @@ exports.page = {
             type: 'link',
             value: 'Documentation: Actions →',
             attrs: {
-                url: 'https://treedocs.vercel.app//docs/v1/hooks/ui/actions/'
+                url: 'https://treedocs.now.sh/docs/v1/hooks/ui/actions/'
             }
         },
         
@@ -181,6 +181,33 @@ exports.page = {
                         url: 'https://httpbin.org/post',
                         params: {
                             message: 'Ping'
+                        }
+                    },
+                    onSuccess: {
+                        action: 'notify',
+                        payload: {
+                            message: 'Success. Got back: ${get(get(response, "json"), "message")}.'
+                        }
+                    },
+                    onError: {
+                        action: 'notify',
+                        payload: {
+                            message: 'Error: ${get(error, "message")}'
+                        }
+                    }
+                }
+            }
+        },
+          {
+            type: 'button',
+            value: 'GraphQLTEST',
+            attrs: {
+                onClick: {
+                    action: 'post',
+                    payload: {
+                        url: 'https://dev-api.withtree.com/graphql',
+                        params: {
+                            body: "{\"operationName\":\"getMembers\",\"variables\":{\"spaceId\":\"005ac2bd-1226-4ea1-a2d3-71250c6bc0bb\",\"membershipIds\":[\"13b92a96-cd40-4d68-87e0-6496682cea8a\",\"3d47991b-cd51-41ea-9408-7b7961490efc\",\"59f2a136-9b84-4690-8741-19620f083dab\"]},\"query\":\"query getMembers($spaceId: ID!, $membershipIds: [ID]) {\\n  space(spaceId: $spaceId) {\\n    members(membershipIds: $membershipIds) {\\n      member {\\n        id\\n        givenName: firstName\\n        familyName: lastName\\n        email\\n        avatarUrl: avatar\\n        __typename\\n      }\\n      role\\n      chat: chatInfo {\\n        userId\\n        accessToken\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"}",
                         }
                     },
                     onSuccess: {
