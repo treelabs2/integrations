@@ -57,7 +57,7 @@ exports.page = {
         {
             type: 'input',
             attrs: {
-                placeholder: 'メッセージを入れてください',
+                placeholder: 'メッセージを入れてください${prop("counter")}',
                 multiline: true
             }
         },
