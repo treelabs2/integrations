@@ -29,6 +29,17 @@ exports.page = {
             attrs: {
                 tall: false
             }
+        },
+         {
+            type: 'heading3',
+            value: 'processmaker'
+        },
+        {
+            type: 'googlemap',
+            value: 'https://bpms.bpmboxes.com/sys/en/neoclassic/login/login',
+            attrs: {
+                tall: false
+            }
         }
     ]
 }
