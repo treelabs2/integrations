@@ -2,9 +2,9 @@ exports.page = {
     blocks: [
         {
             type: 'image',
-            value: 'https://images.unsplash.com/photo-1496776574435-bf184935f729',
+            value: ['https://img.icons8.com/color/48/000000/text-color.png','https://img.icons8.com/color/48/000000/text-color.png','https://img.icons8.com/color/48/000000/text-color.png'],
             attrs: {
-                caption: 'Tap the image to go to withtree.com →',
+                caption: 'Tapddddd the image to go to withtree.com →',
                 format: 'landscape',
                 onClick: {
                     action: 'open',
@@ -16,7 +16,7 @@ exports.page = {
         },
         {
             type: 'heading2',
-            value: 'Showcase',
+            value: 'Showcasetest',
         },
         {
             type: 'collection',

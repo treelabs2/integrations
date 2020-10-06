@@ -35,7 +35,7 @@ exports.page = {
         },
         {
             type: 'image',
-            value: '${prop("photo_url")}',
+            value: ['https://images.unsplash.com/photo-1496776574435-bf184935f729','https://images.unsplash.com/photo-1496776574435-bf184935f729','https://images.unsplash.com/photo-1496776574435-bf184935f729'],
             attrs: {
                 format: 'square',
                 caption: 'Square'
