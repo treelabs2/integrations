@@ -11,6 +11,8 @@ const blocksCollections = require('./blocks-collections');
 const blocksMedia = require('./blocks-media');
 const blocksEmbed = require('./blocks-embed');
 const qr = require('./qr');
+const push = require('./push');
+
 
 var app = http.createServer(function (req, res) {
     // Enable CORS, so that clients can call the Hook.
@@ -45,6 +47,7 @@ var app = http.createServer(function (req, res) {
             case 'blocks-media': page = blocksMedia.page; break;
             case 'blocks-embed': page = blocksEmbed.page; break;
             case 'qr': page = qr.page; break;
+            case 'push': page = push.page; break;
             default: page = welcome.page; break;
         }
         res.writeHead(200, { 'Content-Type': 'application/json' });

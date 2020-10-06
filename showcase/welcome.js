@@ -1,20 +1,6 @@
 exports.page = {
     blocks: [
         {
-            type: 'image',
-            value: ['https://img.icons8.com/color/48/000000/text-color.png','https://img.icons8.com/color/48/000000/text-color.png','https://img.icons8.com/color/48/000000/text-color.png'],
-            attrs: {
-                caption: 'Tapddddd the image to go to withtree.com →',
-                format: 'landscape',
-                onClick: {
-                    action: 'open',
-                    payload: {
-                        url: 'https://withtree.com'
-                    }
-                }
-            }
-        },
-        {
             type: 'heading2',
             value: 'Showcasetest',
         },
@@ -66,9 +52,9 @@ exports.page = {
         },
         {
             type: 'link',
-            value: 'PUSH',
+            value: 'PUSHTEST',
             attrs: {
-                pageId: 'blocks',
+                pageId: 'push',
                 iconUrl: 'https://img.icons8.com/color/48/000000/stack-of-photos.png'
             }
         },
@@ -79,6 +65,34 @@ exports.page = {
                 pageId: 'qr',
                 iconUrl: 'https://img.icons8.com/color/48/000000/qr-code.png'
             }
-        }
+        },
+         {
+            type: 'image',
+            value: 'https://img.icons8.com/color/48/000000/text-color.png',
+            attrs: {
+                caption: 'Tapddddd the image to go to withtree.com →',
+                format: 'landscape',
+                onClick: {
+                    action: 'open',
+                    payload: {
+                        url: 'https://withtree.com'
+                    }
+                }
+            }
+        },
+         {
+            type: 'image',
+            value: ['https://img.icons8.com/color/48/000000/qr-code.png','https://img.icons8.com/color/48/000000/text-color.png','https://img.icons8.com/color/48/000000/text-color.png'],
+            attrs: {
+                caption: 'Tapddddd the image to go to withtree.com →',
+                format: 'landscape',
+                onClick: {
+                    action: 'open',
+                    payload: {
+                        url: 'https://withtree.com'
+                    }
+                }
+            }
+        },
     ]
 }
