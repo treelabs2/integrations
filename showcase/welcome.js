@@ -66,6 +66,14 @@ exports.page = {
         },
         {
             type: 'link',
+            value: 'PUSH',
+            attrs: {
+                pageId: 'blocks',
+                iconUrl: 'https://img.icons8.com/color/48/000000/stack-of-photos.png'
+            }
+        },
+        {
+            type: 'link',
             value: 'QR Code',
             attrs: {
                 pageId: 'qr',
