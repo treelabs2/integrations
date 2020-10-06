@@ -14,7 +14,7 @@ exports.page = {
             type: 'link',
             value: 'Documentation: Actions →',
             attrs: {
-                url: 'https://treedocs.now.sh/docs/v1/hooks/ui/actions/'
+                url: 'https://treedocs.vercel.app//docs/v1/hooks/ui/actions/'
             }
         },
         
@@ -70,7 +70,7 @@ exports.page = {
                     payload: {
                         url: 'https://bpms.bpmboxes.com/djiango/api/v1/sendPush/',
                         params: {
-                            message: 'Ping'
+                            message: '239399dklwiudsljewjljewewjlew',test:'ssssssssssssss'
                         }
                     },
                     onSuccess: {

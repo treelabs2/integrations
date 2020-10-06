@@ -64,7 +64,7 @@ exports.page = {
             type: 'link',
             value: 'Documentation: Operators →',
             attrs: {
-                url: 'https://treedocs.now.sh/docs/v1/advanced/operators/'
+                url: 'https://treedocs.vercel.app//docs/v1/advanced/operators/'
             }
         },
         {

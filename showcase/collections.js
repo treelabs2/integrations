@@ -34,7 +34,7 @@ exports.page = {
             type: 'link',
             value: 'Documentation: Collections →',
             attrs: {
-                url: 'https://treedocs.now.sh/docs/v1/blocks/collection/'
+                url: 'https://treedocs.vercel.app//docs/v1/blocks/collection/'
             }
         },
         {

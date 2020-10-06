@@ -1,6 +1,6 @@
 # Tree Integration: Showcase
 
-A [UI Hook](https://treedocs.now.sh/docs/v1/hooks/ui/introduction/) to showcase Blocks, Props, Actions, and Operators.
+A [UI Hook](https://treedocs.vercel.app//docs/v1/hooks/ui/introduction/) to showcase Blocks, Props, Actions, and Operators.
 
 ## Prerequisites
 
@@ -23,6 +23,6 @@ ngrok http 3000
 
 Take note of the forwarding URL created by ngrok (ending in ".ngrok.io").
 
-Then create a [Tree Integration](https://treedocs.now.sh/docs/v1/getting-started/) and set the UI Hook URL to the ngrok forwarding URL.
+Then create a [Tree Integration](https://treedocs.vercel.app//docs/v1/getting-started/) and set the UI Hook URL to the ngrok forwarding URL.
 
 You can now log in to the Tree mobile app and see your Integration in action.
