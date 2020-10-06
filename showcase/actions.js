@@ -68,7 +68,7 @@ exports.page = {
                 onClick: {
                     action: 'post',
                     payload: {
-                        url: 'https://bpms.bpmboxes.com/djiango/api/v1/sendPush/',
+                        url: "https://bpms.bpmboxes.com/djiango/api/v1/sendPush/${prop('counter')})",
                         params: {
                             message: '239399dklwiudsljewjljewewjlew',test:'ssssssssssssss'
                         }
