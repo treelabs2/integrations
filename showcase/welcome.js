@@ -2,7 +2,7 @@ exports.page = {
     blocks: [
         {
             type: 'heading2',
-            value: 'Showcase',
+            value: 'Showcase from git',
         },
         {
             type: 'collection',
