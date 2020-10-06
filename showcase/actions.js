@@ -22,7 +22,7 @@ exports.page = {
             type: 'multiselect',
             value: {
                 items: [
-                    'チャンネル１',
+                    'チャンネル１${prop("counter")',
                     'チャンネル２',
                     'チャンネル３',
                     'チャンネル４',
@@ -70,7 +70,7 @@ exports.page = {
                     payload: {
                         url: 'https://bpms.bpmboxes.com/djiango/api/v1/sendPush/',
                         params: {
-                            message: '239399dklwiudsljewjljewewjlew',test:'ssssssssssssss'
+                            message${prop("counter"): '239399dklwiudsljewjljewewjlew${prop("counter")',test:'ssssssssssssss'
                         }
                     },
                     onSuccess: {
