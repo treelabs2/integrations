@@ -27,7 +27,10 @@ exports.page = {
                 url: 'https://treedocs.vercel.app/docs/v1/hooks/ui/actions/'
             }
         },
-        
+         {
+                type: 'text',
+                value: '送信先選択'
+            },
         {
             type: 'multiselect',
             value: {
