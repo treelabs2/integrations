@@ -31,6 +31,12 @@ exports.page = {
                 type: 'text',
                 value: '送信グループ選択'
             },
+        {
+    "type": "dropdown",
+    "value": {
+        "items": ["全員"],
+    }
+},
          {
                 type: 'text',
                 value: '送信先選択'
