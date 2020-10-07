@@ -63,8 +63,12 @@ exports.page = {
             }
         },
          {
+            type: 'text',
+            value: 'PUSH送信をします'
+        },
+         {
             type: 'button',
-            value: 'PUSH送信をします',
+            value: 'PUSH通知を送ります',
             attrs: {
                 onClick: {
                     action: 'post',
