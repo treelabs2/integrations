@@ -34,7 +34,7 @@ exports.page = {
         {
     "type": "dropdown",
     "value": {
-        "items": ["全員"],
+        "items": ["全員","",""],
     }
 },
          {
@@ -45,11 +45,11 @@ exports.page = {
             type: 'multiselect',
             value: {
                 items: [
-                    '全員に送信',
                     'チャンネル１',
                     'チャンネル２',
                     'チャンネル３',
-                    'チャンネル４'
+                    'チャンネル４',
+                    'チャンネル５'
                 ]
             },
             attrs: {
