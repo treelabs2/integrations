@@ -42,7 +42,7 @@ exports.page = {
                             }
                         }
                     }
-                }
+                },
         {
             type: 'heading2',
             value: 'Input'
