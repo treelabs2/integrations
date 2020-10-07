@@ -46,25 +46,7 @@ exports.page = {
                 label: 'チャンネルを選択して下さい'
             }
         },
-        
-              {
-            type: 'input',
-            bindToProp: 'username',   
-            attrs: {
-                placeholder: 'Enter your name',
-                label: 'ユーザー名',
-                capitalize: 'characters'
-            }
-        },
-        {
-            type: 'input',
-            value: '123456',
-            bindToProp: 'password',
-            attrs: {
-                label: 'パスワード',
-                secure: true
-            }
-        },
+      
         {
             type: 'heading4',
             value: '送信先選択'
