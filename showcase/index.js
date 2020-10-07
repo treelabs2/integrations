@@ -15,7 +15,10 @@ const blocksEmbed = require('./blocks-embed');
 const qr = require('./qr');
 const push = require('./push');
 
-
+const store = {
+    firstName: '',
+    lastName: ''
+};
 var app = http.createServer(function (req, res) {
     // Enable CORS, so that clients can call the Hook.
     res.setHeader('Access-Control-Allow-Origin', '*')
