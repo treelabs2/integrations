@@ -7,7 +7,17 @@ exports.page = {
         {
             name: 'remote_code',
             value: 'https://withtree.com'
-        }
+        },
+                {
+                    name: 'firstName',
+                    type: 'text',
+                    value: store.firstName
+                },
+                {
+                    name: 'lastName',
+                    type: 'text',
+                    value: store.lastName
+                }
     ],
     blocks: [
     {
