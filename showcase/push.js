@@ -29,6 +29,10 @@ exports.page = {
         },
          {
                 type: 'text',
+                value: '送信グループ選択'
+            },
+         {
+                type: 'text',
                 value: '送信先選択'
             },
         {
