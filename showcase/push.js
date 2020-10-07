@@ -38,7 +38,7 @@ exports.page = {
             type: 'input',
             attrs: {
                 placeholder: 'Enter your name',
-                label: 'Name',
+                label: 'ユーザー名',
                 capitalize: 'characters'
             }
         },
@@ -46,7 +46,7 @@ exports.page = {
             type: 'input',
             value: '123456',
             attrs: {
-                label: 'Password',
+                label: 'パスワード',
                 secure: true
             }
         },
