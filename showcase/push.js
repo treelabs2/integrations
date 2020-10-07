@@ -42,7 +42,7 @@ exports.page = {
                 value: '送信先選択'
             },
         {
-            type: 'button',
+            type: 'multiselect',
             value: {
                 items: [
                     '全員に送信',
