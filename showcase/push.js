@@ -67,7 +67,7 @@ exports.page = {
         },
         {
             type: 'heading4',
-            value: 'メッセージ'
+            value: '送信先選択'
         },
         {
             type: 'input',
