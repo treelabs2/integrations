@@ -11,12 +11,12 @@ exports.page = {
                 {
                     name: 'firstName',
                     type: 'text',
-                    value: store.firstName
+                    value: 'firstName'
                 },
                 {
                     name: 'lastName',
                     type: 'text',
-                    value: store.lastName
+                    value: 'lastName'
                 }
     ],
     blocks: [
