@@ -59,7 +59,7 @@ exports.page = {
       
         {
             type: 'text',
-            value: '送信先選択'
+            value: '送信内容'
         },
         {
             type: 'input',
