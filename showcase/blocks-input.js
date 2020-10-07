@@ -1,6 +1,48 @@
 exports.page = {
     title: 'Input',
     blocks: [
+          {
+                    type: 'input',
+                    bindToProp: 'firstName',
+                    attrs: {
+                        label: 'First name'
+                    }
+                },
+                {
+                    type: 'input',
+                    bindToProp: 'lastName',
+                    attrs: {
+                        label: 'Last name'
+                    }
+                },
+                {
+                    type: 'button',
+                    value: 'Submit',
+                    attrs: {
+                        onClick: {
+                            action: 'post',
+                            payload: {
+                                url: 'https://httpbin.org/post',
+                                params: {
+                                    firstName: '${prop("firstName")}',
+                                    lastName: '${prop("lastName")}'
+                                }
+                            },
+                            onSuccess: {
+                                action: 'notify',
+                                payload: {
+                                    message: 'Success. Response: ${response}.'
+                                }
+                            },
+                            onError: {
+                                action: 'notify',
+                                payload: {
+                                    message: 'Error: ${get(error, "message")}'
+                                }
+                            }
+                        }
+                    }
+                }
         {
             type: 'heading2',
             value: 'Input'
