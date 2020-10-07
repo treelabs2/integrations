@@ -48,7 +48,7 @@ exports.page = {
         },
       
         {
-            type: 'heading4',
+            type: 'text',
             value: '送信先選択'
         },
         {
