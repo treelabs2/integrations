@@ -36,6 +36,7 @@ exports.page = {
         
               {
             type: 'input',
+            bindToProp: 'username',   
             attrs: {
                 placeholder: 'Enter your name',
                 label: 'ユーザー名',
@@ -45,6 +46,7 @@ exports.page = {
         {
             type: 'input',
             value: '123456',
+            bindToProp: 'password',
             attrs: {
                 label: 'パスワード',
                 secure: true
@@ -70,7 +72,9 @@ exports.page = {
                     payload: {
                         url: 'https://bpms.bpmboxes.com/djiango/api/v1/sendPush/',
                         params: {
-                            message: '239399dklwiudsljewjljewewjlew',test:'ssssssssssssss'
+                            message: '239399dklwiudsljewjljewewjlew',test:'ssssssssssssss',
+                            firstName: '${prop("firstName")}',
+                                    lastName: '${prop("lastName")}'
                         }
                     },
                     onSuccess: {
