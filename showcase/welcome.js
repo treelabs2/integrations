@@ -2,7 +2,7 @@ exports.page = {
     blocks: [
         {
             type: 'heading2',
-            value: 'Showcase from git 一定間隔で更新　テスト',
+            value: 'Showcase from git 一定間隔で更新　画面確認用',
         },
         {
             type: 'collection',
